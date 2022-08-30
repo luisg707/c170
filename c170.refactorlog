@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c5252c61-dcd1-4c75-922a-28710154ad14" ChangeDateTime="08/30/2022 01:01:13">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="employee_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb7e9c17-7ef3-499c-95bc-77f3a3ead546" ChangeDateTime="08/30/2022 01:05:04">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="shop_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9080a994-c08a-456d-8c9a-ee20e5b70ad7" ChangeDateTime="08/30/2022 01:06:18">
+    <Property Name="ElementName" Value="[dbo].[coffee].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[coffee]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="coffee_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="af34fd59-2387-484f-b444-31b6f6ffd72c" ChangeDateTime="08/30/2022 01:07:51">
+    <Property Name="ElementName" Value="[dbo].[supplier].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[supplier]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="supplier_id" />
+  </Operation>
+</Operations>
